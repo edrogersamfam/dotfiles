@@ -75,6 +75,7 @@ if [ ".${new_enough_version}" != ".True" ]; then
 fi
 
 # Install virtualenv
+apt-get -y install python3-pip
 python3 -m pip install -U pip
 python3 -m pip install virtualenv
 
