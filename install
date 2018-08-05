@@ -61,15 +61,15 @@ jupyter nbextension enable code_prettify/autopep8 --user
 #nbdime extensions --enable --user
 nbdime extensions --enable --sys-prefix
 
-# jupyter labextension install --no-build @ryantam626/jupyterlab_black  # Doesn't work yet...
-jupyter labextension install --no-build @mflevine/jupyterlab_html
-jupyter labextension install --no-build @jupyterlab/git
-jupyter labextension install --no-build @jupyterlab/toc
-jupyter labextension install --no-build @jupyterlab/latex
+jupyter labextension install --no-build @ryantam626/jupyterlab_black  # Doesn't work yet...
+# jupyter labextension install --no-build @mflevine/jupyterlab_html
+# jupyter labextension install --no-build @jupyterlab/git
+# jupyter labextension install --no-build @jupyterlab/toc
+# jupyter labextension install --no-build @jupyterlab/latex
 jupyter lab build
-jupyter serverextension enable --sys-prefix --py jupyterlab
-jupyter serverextension enable --sys-prefix --py jupyterlab_git
-jupyter serverextension enable --sys-prefix --py jupyterlab_latex
+# jupyter serverextension enable --sys-prefix --py jupyterlab
+# jupyter serverextension enable --sys-prefix --py jupyterlab_git
+# jupyter serverextension enable --sys-prefix --py jupyterlab_latex
 
 
 # # Change shell to zsh and install oh-my-zsh
